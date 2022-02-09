@@ -40,7 +40,7 @@ const flags = data => {
             <th>${item.region}</th>
             <th>${language}</th>
             <th>${item.population}</th>
-            <th><img src="${item.flags.png}"></th>
+            <th class="p-4"><img style="width: 200px; box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.3);" src="${item.flags.png}"></th>
         </tr>    
         `;
     });
